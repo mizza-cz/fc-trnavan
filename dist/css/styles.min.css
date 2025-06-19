@@ -2386,7 +2386,7 @@ input:not(.btn) {
 .roster-player .image-wrapper .roster-number .number {
     width: 48px;
     height: 48px;
-    background: black;
+    background: #048504;
 }
 .roster-player:hover h3 {
     text-decoration: underline;
