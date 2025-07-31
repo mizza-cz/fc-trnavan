@@ -2527,5 +2527,6 @@ main {
     .subpage-match__teams {
         justify-content: center;
         flex-direction: column;
+        line-height: 100%;
     }
 }
