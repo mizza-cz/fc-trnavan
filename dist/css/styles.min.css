@@ -2510,3 +2510,22 @@ main {
         margin-top: 70px;
     }
 }
+.gap-2 {
+    gap: 0.5rem;
+}
+.matches-section .btn.btn-arrow {
+    padding-right: 0;
+    width: max-content;
+}
+.subpage-match__teams {
+    display: flex;
+    gap: 0 4px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1199px) {
+    .subpage-match__teams {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
