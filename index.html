@@ -577,112 +577,250 @@
                 <!-- MATCHES -->
                 <section class="hp-matches">
                     <div class="container">
-                        <div class="row">
+                        <ul
+                            class="nav nav-tabs mb-4"
+                            id="matchesTabs"
+                            role="tablist"
+                        >
+                            <li class="nav-item mr-1">
+                                <a
+                                    class="btn bg-primary text-white custom-nav-item a-loaded active"
+                                    data-a-category="muzi-a"
+                                    id="muzi-a-tab"
+                                    data-toggle="tab"
+                                    href="#muzi-a-pane"
+                                    role="tab"
+                                    aria-controls="muzi-a"
+                                    aria-selected="true"
+                                    >Muži A</a
+                                >
+                            </li>
+                            <li class="nav-item mr-1">
+                                <a
+                                    class="btn btn-secondary custom-nav-item"
+                                    id="muzi-b-tab"
+                                    data-a-category="muzi-b"
+                                    data-toggle="tab"
+                                    href="#muzi-b-pane"
+                                    role="tab"
+                                    aria-controls="muzi-b"
+                                    aria-selected="false"
+                                    >Muži B</a
+                                >
+                            </li>
+                            <li class="nav-item mr-1">
+                                <a
+                                    class="btn btn-secondary custom-nav-item"
+                                    id="dorost-tab"
+                                    data-a-category="dorost"
+                                    data-toggle="tab"
+                                    href="#dorost-pane"
+                                    role="tab"
+                                    aria-controls="dorost"
+                                    aria-selected="false"
+                                    >Dorost</a
+                                >
+                            </li>
+                            <li class="nav-item mr-1">
+                                <a
+                                    class="btn btn-secondary custom-nav-item"
+                                    data-a-category="st-zaci"
+                                    id="st-zaci-tab"
+                                    data-toggle="tab"
+                                    href="#st-zaci-pane"
+                                    role="tab"
+                                    aria-controls="st-zaci"
+                                    aria-selected="false"
+                                    >Starší žáci</a
+                                >
+                            </li>
+                            <li class="nav-item mr-1">
+                                <a
+                                    class="btn btn-secondary custom-nav-item"
+                                    id="ml-zaci-tab"
+                                    data-a-category="ml-zaci"
+                                    data-toggle="tab"
+                                    href="#ml-zaci-pane"
+                                    role="tab"
+                                    aria-controls="ml-zaci"
+                                    aria-selected="false"
+                                    >Mladší žáci</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="btn btn-secondary custom-nav-item"
+                                    id="pripravka-tab"
+                                    data-a-category="pripravka"
+                                    data-toggle="tab"
+                                    href="#pripravka-pane"
+                                    role="tab"
+                                    aria-controls="pripravka"
+                                    aria-selected="false"
+                                    >Starší přípravka</a
+                                >
+                            </li>
+                        </ul>
+
+                        <div class="tab-content" id="matchesTabContent">
                             <div
-                                class="col-lg-6 match-left position-relative pb-4 pb-lg-0"
+                                class="tab-pane fade show active"
+                                id="muzi-a-pane"
+                                role="tabpanel"
+                                aria-labelledby="muzi-a-tab"
                             >
-                                <div class="row row-8">
+                                <div class="row">
                                     <div
-                                        class="col-6 col-md-auto order-1 text-center text-lg-left mb-4 mb-md-0"
+                                        class="col-lg-6 match-left position-relative pb-4 pb-lg-0"
                                     >
-                                        <img
-                                            data-src="dist/images/logo.png"
-                                            height="90"
-                                            width="90"
-                                            alt="logo"
-                                            class="lazyload"
-                                        />
-                                    </div>
-                                    <div
-                                        class="col-md text-center mb-3 order-3 order-md-2"
-                                    >
-                                        <div
-                                            class="text-uppercase rounded-sm-block d-inline-block bg-gray-80 rounded font-weight-bold text-gray-100 mb-3"
-                                        >
-                                            přát., Příprava, so 1. 2. 2025
+                                        <div class="row row-8">
+                                            <div
+                                                class="col-6 col-md-auto order-1 text-center text-lg-left mb-4 mb-md-0"
+                                            >
+                                                <img
+                                                    data-src="dist/images/logo.png"
+                                                    height="90"
+                                                    width="90"
+                                                    alt="logo"
+                                                    class="lazyload"
+                                                />
+                                            </div>
+                                            <div
+                                                class="col-md text-center mb-3 order-3 order-md-2"
+                                            >
+                                                <div
+                                                    class="text-uppercase rounded-sm-block d-inline-block bg-gray-80 rounded font-weight-bold text-gray-100 mb-3"
+                                                >
+                                                    přát., Příprava, so 1. 2.
+                                                    2025
+                                                </div>
+                                                <h2 class="heading-gamma mb-0">
+                                                    FC Trnavan Rožďalovice
+                                                </h2>
+                                                <h2 class="heading-gamma mb-2">
+                                                    FC SILON Táborsko
+                                                </h2>
+                                                <a
+                                                    href="#"
+                                                    class="heading-delta text-success link-inverted font-weight-bold"
+                                                    >3:1</a
+                                                >
+                                            </div>
+                                            <div
+                                                class="col-6 col-md-auto text-center text-lg-right order-2 order-md-3 mb-4 mb-md-0"
+                                            >
+                                                <img
+                                                    data-src="https://fkvz.esports.cz/files/logos/FC_Silon_Táborsko_logo.svg.png"
+                                                    height="90"
+                                                    width="90"
+                                                    alt="logo"
+                                                    class="lazyload"
+                                                />
+                                            </div>
+                                            <div
+                                                class="col-12 text-center order-4"
+                                            >
+                                                <a
+                                                    href="/match/2134"
+                                                    class="btn btn-arrow text-primary"
+                                                    >Komentář</a
+                                                >
+                                            </div>
                                         </div>
-                                        <h2 class="heading-gamma mb-0">
-                                            FC Trnavan Rožďalovice
-                                        </h2>
-                                        <h2 class="heading-gamma mb-2">
-                                            FC SILON Táborsko
-                                        </h2>
-                                        <a
-                                            href="#"
-                                            class="heading-delta text-success link-inverted font-weight-bold"
-                                            >3:1</a
-                                        >
                                     </div>
+
                                     <div
-                                        class="col-6 col-md-auto text-center text-lg-right order-2 order-md-3 mb-4 mb-md-0"
+                                        class="col-lg-6 match-right position-relative pb-4 pb-lg-0 pt-4 pt-lg-0"
                                     >
-                                        <img
-                                            data-src="https://fkvz.esports.cz/files/logos/FC_Silon_Táborsko_logo.svg.png"
-                                            height="90"
-                                            width="90"
-                                            alt="logo"
-                                            class="lazyload"
-                                        />
-                                    </div>
-                                    <div class="col-12 text-center order-4">
-                                        <a
-                                            href="/match/2134"
-                                            class="btn btn-arrow text-primary"
-                                            >Komentář</a
-                                        >
+                                        <div class="row row-8">
+                                            <div
+                                                class="col-6 col-md-auto order-1 text-center text-lg-left mb-4 mb-md-0"
+                                            >
+                                                <img
+                                                    data-src="dist/images/logo.png"
+                                                    height="90"
+                                                    width="90"
+                                                    alt="logo"
+                                                    class="lazyload"
+                                                />
+                                            </div>
+                                            <div
+                                                class="col-md text-center mb-3 order-3 order-md-2"
+                                            >
+                                                <div
+                                                    class="text-uppercase rounded-sm-block d-inline-block bg-gray-80 rounded font-weight-bold text-gray-100 mb-3"
+                                                >
+                                                    přát., Příprava, so 8. 2.
+                                                    2025
+                                                </div>
+                                                <h2 class="heading-gamma mb-0">
+                                                    FC Trnavan Rožďalovice
+                                                </h2>
+                                                <h2 class="heading-gamma mb-2">
+                                                    FK Motorlet Praha
+                                                </h2>
+                                                <span
+                                                    class="heading-delta font-weight-bold"
+                                                    >10:15</span
+                                                >
+                                            </div>
+                                            <div
+                                                class="col-6 col-md-auto text-center text-lg-right order-2 order-md-3 mb-4 mb-md-0"
+                                            >
+                                                <img
+                                                    data-src="https://fkvz.esports.cz/znaky/mtr.png"
+                                                    height="90"
+                                                    width="90"
+                                                    alt="logo"
+                                                    class="lazyload"
+                                                />
+                                            </div>
+                                            <div
+                                                class="col-12 text-center order-4"
+                                            ></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
                             <div
-                                class="col-lg-6 match-right position-relative pb-4 pb-lg-0 pt-4 pt-lg-0"
+                                class="tab-pane fade"
+                                id="muzi-b-pane"
+                                role="tabpanel"
+                                aria-labelledby="muzi-b-tab"
                             >
-                                <div class="row row-8">
-                                    <div
-                                        class="col-6 col-md-auto order-1 text-center text-lg-left mb-4 mb-md-0"
-                                    >
-                                        <img
-                                            data-src="dist/images/logo.png"
-                                            height="90"
-                                            width="90"
-                                            alt="logo"
-                                            class="lazyload"
-                                        />
-                                    </div>
-                                    <div
-                                        class="col-md text-center mb-3 order-3 order-md-2"
-                                    >
-                                        <div
-                                            class="text-uppercase rounded-sm-block d-inline-block bg-gray-80 rounded font-weight-bold text-gray-100 mb-3"
-                                        >
-                                            přát., Příprava, so 8. 2. 2025
-                                        </div>
-                                        <h2 class="heading-gamma mb-0">
-                                            FC Trnavan Rožďalovice
-                                        </h2>
-                                        <h2 class="heading-gamma mb-2">
-                                            FK Motorlet Praha
-                                        </h2>
-                                        <span
-                                            class="heading-delta font-weight-bold"
-                                            >10:15</span
-                                        >
-                                    </div>
-                                    <div
-                                        class="col-6 col-md-auto text-center text-lg-right order-2 order-md-3 mb-4 mb-md-0"
-                                    >
-                                        <img
-                                            data-src="https://fkvz.esports.cz/znaky/mtr.png"
-                                            height="90"
-                                            width="90"
-                                            alt="logo"
-                                            class="lazyload"
-                                        />
-                                    </div>
-                                    <div
-                                        class="col-12 text-center order-4"
-                                    ></div>
-                                </div>
+                                222
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="dorost-pane"
+                                role="tabpanel"
+                                aria-labelledby="dorost-tab"
+                            >
+                                Dorost
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="st-zaci-pane"
+                                role="tabpanel"
+                                aria-labelledby="st-zaci-tab"
+                            >
+                                444
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="ml-zaci-pane"
+                                role="tabpanel"
+                                aria-labelledby="ml-zaci-tab"
+                            >
+                                555
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="pripravka-pane"
+                                role="tabpanel"
+                                aria-labelledby="pripravka-tab"
+                            >
+                                666
                             </div>
                         </div>
                     </div>

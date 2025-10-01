@@ -2530,3 +2530,7 @@ main {
         line-height: 100%;
     }
 }
+
+#matchesTabs .btn {
+    padding: 7px 14px;
+}
